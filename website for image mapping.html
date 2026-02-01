@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Philippine Map</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f0f8ff;
+    }
+    h1 {
+      color: #0055aa;
+    }
+    img {
+      border: 2px solid #0055aa;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple Philippine Map</h1>
+  <p>Click on an island group to learn more.</p>
+
+  <img src="mappic.jpeg" 
+       alt="Philippine Map"
+        usemap="#Philippinemap" width="800">
+
+  <map name="Philippinemap">
+    <area shape="poly" coords="220,45, 320,55, 340,120, 300,220, 250,290, 150,380, 130,420, 160,520, 220,570, 270,530, 300,440, 320,340, 270,190, 230,90" href="https://en.wikipedia.org/wiki/Luzon" target="_blank" alt="luzon">
+    <area shape="poly" coords="320,380, 380,350, 450,410, 420,480, 360,510, 300,430" href="https://share.google/KlabnqKcY9QtoTAgO" target="_blank" alt="Visayas">
+    <area shape="poly" coords="350,520, 410,490, 490,550, 490,630, 400,720, 330,680, 300,600, 330,530" href="https://share.google/k5sZPA5ESkQjJW0Ls" target="_blank" alt="mindanao"> 
+    
+  </map>
+</body>
+</html>
